@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A7B84DC00BCD7D5C1638E2 /* Pods_SwiftyGA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C729C7403E6A26F255460AD /* Pods_SwiftyGA.framework */; };
+		F40253DE1FA0BE8300322F0A /* SwiftyGATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40253DD1FA0BE8300322F0A /* SwiftyGATests.swift */; };
+		F45202011F9B398D001D12FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45202001F9B398D001D12FB /* AppDelegate.swift */; };
+		F45202031F9B398D001D12FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45202021F9B398D001D12FB /* ViewController.swift */; };
+		F45202061F9B398D001D12FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45202041F9B398D001D12FB /* Main.storyboard */; };
+		F45202081F9B398D001D12FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45202071F9B398D001D12FB /* Assets.xcassets */; };
+		F452020B1F9B398D001D12FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45202091F9B398D001D12FB /* LaunchScreen.storyboard */; };
+		F454B4711F9B677C00BFC5CF /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454B4701F9B677C00BFC5CF /* AnotherViewController.swift */; };
+		F454B4751F9B982000BFC5CF /* SwiftyGA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454B4741F9B982000BFC5CF /* SwiftyGA.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40253E01FA0BE8300322F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45201F51F9B398D001D12FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45201FC1F9B398D001D12FB;
+			remoteInfo = SwiftyGA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01607FCE206485A5D774BE7A /* Pods_SwiftyGATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyGATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C729C7403E6A26F255460AD /* Pods_SwiftyGA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyGA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82788E67A5EEBA0F7E7E7C63 /* Pods-SwiftyGA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyGA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyGA/Pods-SwiftyGA.debug.xcconfig"; sourceTree = "<group>"; };
+		CA9B4E614E0DD9BB7CDB8A39 /* Pods-SwiftyGA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyGA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyGA/Pods-SwiftyGA.release.xcconfig"; sourceTree = "<group>"; };
+		F40253DB1FA0BE8300322F0A /* SwiftyGATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyGATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40253DD1FA0BE8300322F0A /* SwiftyGATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyGATests.swift; sourceTree = "<group>"; };
+		F40253DF1FA0BE8300322F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45201FD1F9B398D001D12FB /* SwiftyGA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyGA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45202001F9B398D001D12FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F45202021F9B398D001D12FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F45202051F9B398D001D12FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45202071F9B398D001D12FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F452020A1F9B398D001D12FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F452020C1F9B398D001D12FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45202201F9B3A00001D12FB /* SwiftyGA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyGA.h; sourceTree = "<group>"; };
+		F454B4701F9B677C00BFC5CF /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		F454B4741F9B982000BFC5CF /* SwiftyGA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40253D81FA0BE8300322F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45201FA1F9B398D001D12FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A7B84DC00BCD7D5C1638E2 /* Pods_SwiftyGA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093270D7874F8A147417BB07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82788E67A5EEBA0F7E7E7C63 /* Pods-SwiftyGA.debug.xcconfig */,
+				CA9B4E614E0DD9BB7CDB8A39 /* Pods-SwiftyGA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9BA48F2541B8E2529717B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C729C7403E6A26F255460AD /* Pods_SwiftyGA.framework */,
+				01607FCE206485A5D774BE7A /* Pods_SwiftyGATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40253DC1FA0BE8300322F0A /* SwiftyGATests */ = {
+			isa = PBXGroup;
+			children = (
+				F40253DD1FA0BE8300322F0A /* SwiftyGATests.swift */,
+				F40253DF1FA0BE8300322F0A /* Info.plist */,
+			);
+			path = SwiftyGATests;
+			sourceTree = "<group>";
+		};
+		F45201F41F9B398D001D12FB = {
+			isa = PBXGroup;
+			children = (
+				F45201FF1F9B398D001D12FB /* SwiftyGA */,
+				F40253DC1FA0BE8300322F0A /* SwiftyGATests */,
+				F45201FE1F9B398D001D12FB /* Products */,
+				093270D7874F8A147417BB07 /* Pods */,
+				A9BA48F2541B8E2529717B1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F45201FE1F9B398D001D12FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45201FD1F9B398D001D12FB /* SwiftyGA.app */,
+				F40253DB1FA0BE8300322F0A /* SwiftyGATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45201FF1F9B398D001D12FB /* SwiftyGA */ = {
+			isa = PBXGroup;
+			children = (
+				F45202001F9B398D001D12FB /* AppDelegate.swift */,
+				F45202021F9B398D001D12FB /* ViewController.swift */,
+				F454B4701F9B677C00BFC5CF /* AnotherViewController.swift */,
+				F45202041F9B398D001D12FB /* Main.storyboard */,
+				F45202201F9B3A00001D12FB /* SwiftyGA.h */,
+				F454B4741F9B982000BFC5CF /* SwiftyGA.swift */,
+				F45202071F9B398D001D12FB /* Assets.xcassets */,
+				F45202091F9B398D001D12FB /* LaunchScreen.storyboard */,
+				F452020C1F9B398D001D12FB /* Info.plist */,
+			);
+			path = SwiftyGA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40253DA1FA0BE8300322F0A /* SwiftyGATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40253E21FA0BE8300322F0A /* Build configuration list for PBXNativeTarget "SwiftyGATests" */;
+			buildPhases = (
+				F40253D71FA0BE8300322F0A /* Sources */,
+				F40253D81FA0BE8300322F0A /* Frameworks */,
+				F40253D91FA0BE8300322F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40253E11FA0BE8300322F0A /* PBXTargetDependency */,
+			);
+			name = SwiftyGATests;
+			productName = SwiftyGATests;
+			productReference = F40253DB1FA0BE8300322F0A /* SwiftyGATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45201FC1F9B398D001D12FB /* SwiftyGA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F452021A1F9B398D001D12FB /* Build configuration list for PBXNativeTarget "SwiftyGA" */;
+			buildPhases = (
+				B7121CC91F8CFC1752CA4670 /* [CP] Check Pods Manifest.lock */,
+				F45201F91F9B398D001D12FB /* Sources */,
+				F45201FA1F9B398D001D12FB /* Frameworks */,
+				F45201FB1F9B398D001D12FB /* Resources */,
+				AB361A409B5E640002C29D5F /* [CP] Embed Pods Frameworks */,
+				956387390667FBCA28B41232 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGA;
+			productName = SwiftyGA;
+			productReference = F45201FD1F9B398D001D12FB /* SwiftyGA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45201F51F9B398D001D12FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Arash Z.Jahangiri";
+				TargetAttributes = {
+					F40253DA1FA0BE8300322F0A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F45201FC1F9B398D001D12FB;
+					};
+					F45201FC1F9B398D001D12FB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F45201F81F9B398D001D12FB /* Build configuration list for PBXProject "SwiftyGA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45201F41F9B398D001D12FB;
+			productRefGroup = F45201FE1F9B398D001D12FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45201FC1F9B398D001D12FB /* SwiftyGA */,
+				F40253DA1FA0BE8300322F0A /* SwiftyGATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40253D91FA0BE8300322F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45201FB1F9B398D001D12FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F452020B1F9B398D001D12FB /* LaunchScreen.storyboard in Resources */,
+				F45202081F9B398D001D12FB /* Assets.xcassets in Resources */,
+				F45202061F9B398D001D12FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		956387390667FBCA28B41232 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyGA/Pods-SwiftyGA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB361A409B5E640002C29D5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyGA/Pods-SwiftyGA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyGA/Pods-SwiftyGA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7121CC91F8CFC1752CA4670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyGA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40253D71FA0BE8300322F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40253DE1FA0BE8300322F0A /* SwiftyGATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45201F91F9B398D001D12FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45202031F9B398D001D12FB /* ViewController.swift in Sources */,
+				F454B4711F9B677C00BFC5CF /* AnotherViewController.swift in Sources */,
+				F45202011F9B398D001D12FB /* AppDelegate.swift in Sources */,
+				F454B4751F9B982000BFC5CF /* SwiftyGA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40253E11FA0BE8300322F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45201FC1F9B398D001D12FB /* SwiftyGA */;
+			targetProxy = F40253E01FA0BE8300322F0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F45202041F9B398D001D12FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45202051F9B398D001D12FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45202091F9B398D001D12FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F452020A1F9B398D001D12FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40253E31FA0BE8300322F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WZ6J7BW4P;
+				INFOPLIST_FILE = SwiftyGATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.test.SNPGoogleAnalytics.SwiftyGATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyGA.app/SwiftyGA";
+			};
+			name = Debug;
+		};
+		F40253E41FA0BE8300322F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WZ6J7BW4P;
+				INFOPLIST_FILE = SwiftyGATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.test.SNPGoogleAnalytics.SwiftyGATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyGA.app/SwiftyGA";
+			};
+			name = Release;
+		};
+		F45202181F9B398D001D12FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F45202191F9B398D001D12FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F452021B1F9B398D001D12FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82788E67A5EEBA0F7E7E7C63 /* Pods-SwiftyGA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WZ6J7BW4P;
+				INFOPLIST_FILE = SwiftyGA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.test.SNPGoogleAnalytics.SwiftyGA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F452021C1F9B398D001D12FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9B4E614E0DD9BB7CDB8A39 /* Pods-SwiftyGA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WZ6J7BW4P;
+				INFOPLIST_FILE = SwiftyGA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.test.SNPGoogleAnalytics.SwiftyGA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40253E21FA0BE8300322F0A /* Build configuration list for PBXNativeTarget "SwiftyGATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40253E31FA0BE8300322F0A /* Debug */,
+				F40253E41FA0BE8300322F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45201F81F9B398D001D12FB /* Build configuration list for PBXProject "SwiftyGA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45202181F9B398D001D12FB /* Debug */,
+				F45202191F9B398D001D12FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F452021A1F9B398D001D12FB /* Build configuration list for PBXNativeTarget "SwiftyGA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F452021B1F9B398D001D12FB /* Debug */,
+				F452021C1F9B398D001D12FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45201F51F9B398D001D12FB /* Project object */;
+}
